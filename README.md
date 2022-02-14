@@ -26,11 +26,11 @@ git config --global user.name "nome da pessoa aqui"
 git config --global user.email "email da pessoa aqui"
 ```
 
-### Criando o primeiro repositório...
+## Criando o primeiro repositório...
 
-Iniciar um repositório vazio
+Iniciar um repositório vazio.
 
-Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.
+Demos um git init na pasta raiz do nosso projeto inicializar o controle de versões no projeto.
 
 ```bash
 git init
@@ -40,4 +40,12 @@ Agora escrevemos a descrição das nossas alterações.
 
 ```bash
 git commit -m "escreva a descrição do commit aqui"
+```
+
+## Ignorando arquivos com o git...
+
+Às vezes não queremos adicionar em nosso repositório certos arquivo de configuração. Podemos, então, deixar de rastrea-los com o git simplemente adicionando um arquivo chamado <b>gitignore</b>. No exemplo paramos de ratrear o [ide-config](ide-config.txt).
+
+```bash
+git add .gitignore
 ```
