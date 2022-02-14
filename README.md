@@ -30,11 +30,13 @@ git config --global user.email "email da pessoa aqui"
 
 Iniciar um repositório vazio
 
+Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.
+
 ```bash
 git init
 ```
 
-Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.
+Agora escrevemos a descrição das nossas alterações.
 
 ```bash
 git commit -m "escreva a descrição do commit aqui"
