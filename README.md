@@ -15,7 +15,7 @@
 
 <description>Globais</description>
 
-<p>Com o comando --global você pode setar seu nome e email para todos os repositórios que você</p>
+<p>Com o comando --global você pode setar seu nome e email para todos os repositórios que você criar na sua máquina.</p>
 
 <code>git config --global user.name "nome da pessoa aqui"</code>
 
