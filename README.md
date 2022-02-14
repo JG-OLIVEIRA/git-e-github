@@ -1,5 +1,7 @@
 <h1>Comandos GIT</h1>
 
+<br>
+
 <section>
 <h2>Configurando o git...<h2>
 
@@ -7,7 +9,7 @@
 
 <description>Locais</description>
 
-<p>Usamos o comando --local para definir o nome e o email do responsável pelas alterações no repositório.</p>
+Usamos o comando --local para definir o nome e o email do responsável pelas alterações no repositório.
 
 <code>git config --local user.name "nome da pessoa aqui"</code>
 
@@ -15,7 +17,7 @@
 
 <description>Globais</description>
 
-<p>Com o comando --global você pode setar seu nome e email para todos os repositórios que você criar na sua máquina.</p>
+Com o comando --global você pode setar seu nome e email para todos os repositórios que você criar na sua máquina.
 
 <code>git config --global user.name "nome da pessoa aqui"</code>
 
@@ -31,7 +33,7 @@
 
 <description>Iniciar um repositório vazio</description>
 
-<p>Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.</p>
+Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.
 
 <code>git init</code>
 
