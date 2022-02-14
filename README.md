@@ -1,46 +1,41 @@
 <h1>Comandos GIT</h1>
 
-<br>
+## Configurando o git...
 
-<section>
-<h2>Configurando o git...<h2>
+### Locais
 
-<br>
+Usamos o comando <code>--local</code> para definir o nome e o email do responsável pelas alterações no repositório.
 
-<description>Locais</description>
+```bash
+git config --local user.name "nome da pessoa aqui"
+```
 
-Usamos o comando --local para definir o nome e o email do responsável pelas alterações no repositório.
+```bash
+git config --local user.email "email da pessoa aqui"
+```
 
-<code>git config --local user.name "nome da pessoa aqui"</code>
+### Globais
 
-<code>git config --local user.email "email da pessoa aqui"</code>
+Com o comando <code>--global</code> você pode setar seu nome e email para todos os repositórios que você criar na sua máquina.
 
-<description>Globais</description>
+```bash
+git config --global user.name "nome da pessoa aqui"
+```
 
-Com o comando --global você pode setar seu nome e email para todos os repositórios que você criar na sua máquina.
+```bash
+git config --global user.email "email da pessoa aqui"
+```
 
-<code>git config --global user.name "nome da pessoa aqui"</code>
+### Criando o primeiro repositório...
 
-<code>git config --global user.email "email da pessoa aqui"</code>
+Iniciar um repositório vazio
 
-<br>
-
-<h2>Criando o primeiro repositório...<h2>
-
-<br>
-
-<section>
-
-<description>Iniciar um repositório vazio</description>
+```bash
+git init
+```
 
 Demos um git init na pasta raiz do nosso projeto para começar a inicializar o controle de versões no projeto.
 
-<code>git init</code>
-
-<description>Fazer um commit:</description>
-
-<code>git commit -m "escreva a descrição do commit aqui"</code>
-
-</section>
-
-</main>
+```bash
+git commit -m "escreva a descrição do commit aqui"
+```
